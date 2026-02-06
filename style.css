@@ -17,9 +17,6 @@ body {
 }
 
 body {
-  display: grid;
-  justify-content: center;
-  align-items: center;
   background-color: white;
   font-family: "Quicksand", sans-serif;
   min-height: 100vh;
@@ -166,7 +163,7 @@ canvas {
   text-shadow: 1px 1px 5px rgba(255, 182, 193, 0.8);
 }
 
-/* CSS targeting classes */
+
 
 .gif-result {
   border-radius: 10px;
@@ -475,6 +472,7 @@ canvas {
     border-color: rgb(228, 228, 228);
   }
 }
+
 /* Mobile Responsiveness */
 @media (max-width: 480px) {
   .question {
@@ -497,16 +495,18 @@ canvas {
     gap: 1.5rem;
   }
 
-  .local-gif, .gif-result {
+  .local-gif,
+  .gif-result {
     max-width: 80%;
   }
 
   /* Ensure background decorations don't overlap text too much */
-  .flower-back, .flower-center {
+  .flower-back,
+  .flower-center {
     opacity: 0.4;
     filter: blur(2px);
   }
-  
+
   canvas {
     filter: opacity(0.6);
   }

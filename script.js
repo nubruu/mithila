@@ -5,7 +5,7 @@ const heartLoader = document.querySelector(".cssload-main");
 const yesBtn = document.querySelector(".js-yes-btn");
 const noBtn = document.querySelector(".js-no-btn");
 
-// /change the postion of no button
+// Movement logic for 'No' button
 noBtn.addEventListener("mouseover", () => {
   // Ensure the button is absolutely positioned before moving it
   if (noBtn.style.position !== "absolute") {
